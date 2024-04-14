@@ -1,6 +1,6 @@
-# Social links profile
+# Stats Prewview Card
 
-![Imagen del proyecto](https://raw.githubusercontent.com/tiffanyona6/social-links-profile/main/design%203/desktop-preview.jpg)
+![Imagen del proyecto](https://raw.githubusercontent.com/tiffanyona6/stats-preview-cards/main/design%204/desktop-preview.jpg)
 
 ## Ejemplo en vivo
 
@@ -27,15 +27,14 @@ He aprendido a trabajar con sass.
 
 Si quieres echar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://raw.githubusercontent.com/tiffanyona6/social-links-profile/main/design%203/destkop-design.jpg)
-![Captura del proyecto](https://raw.githubusercontent.com/tiffanyona6/social-links-profile/main/design%203/active-states.jpg)
-![Captura del proyecto](https://raw.githubusercontent.com/tiffanyona6/social-links-profile/main/design%203/mobile-design.jpg)
+![Captura del proyecto](https://raw.githubusercontent.com/tiffanyona6/stats-preview-cards/main/design%204/desktop-design.jpg)
+![Captura del proyecto](https://raw.githubusercontent.com/tiffanyona6/stats-preview-cards/main/design%204/mobile-design.jpg)
 
 ## Autor ✒️
 
 **Tiffany Oña**
 
-- [tiffanyona6@gmail.com]
+- tiffanyona6@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/tu-url-de-linkedin/)
 - [Porfolio web](https://tu-dominio.com/)
 
