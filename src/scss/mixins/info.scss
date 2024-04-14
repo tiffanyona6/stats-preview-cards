@@ -1,0 +1,39 @@
+@use "../mixins/responsive.scss" as *;
+
+.info {
+
+
+    &__section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2PX;
+        margin-bottom: 24PX;
+
+    }
+
+    &__number {
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 2px;
+    }
+
+    &__text-number {
+        color: white;
+        font-size: 12px;
+        font-family: "Lexend Deca"
+
+
+    }
+
+    @include responsive(laptop) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 60px;
+    }
+
+
+
+}
