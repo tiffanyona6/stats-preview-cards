@@ -1,39 +1,33 @@
 @use "../mixins/responsive.scss" as *;
 
 .info {
+  display: flex;
+  flex-direction: column;
+  &__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 24px;
+  }
 
+  &__number {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 2px;
+  }
 
-    &__section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 2PX;
-        margin-bottom: 24PX;
+  &__text-number {
+    color: white;
+    font-size: 12px;
+    font-family: "Lexend Deca";
+  }
 
-    }
-
-    &__number {
-        font-size: 24px;
-        font-weight: 700;
-        color: white;
-        margin-bottom: 2px;
-    }
-
-    &__text-number {
-        color: white;
-        font-size: 12px;
-        font-family: "Lexend Deca"
-
-
-    }
-
-    @include responsive(laptop) {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 60px;
-    }
-
-
-
+  @include responsive(laptop) {
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+  }
 }

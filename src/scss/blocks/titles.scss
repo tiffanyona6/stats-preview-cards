@@ -1,7 +1,21 @@
+@use "../mixins/responsive.scss" as *;
+
 .titles {
-    color: white;
-    font-weight: 700;
-    font-size: 28px;
-    margin-bottom: 16px;
-    padding: 0 31px 0 31px
+  color: white;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 16px;
+  padding: 0 31px 0 31px;
+
+  @include responsive(laptop) {
+    text-align: left;
+    margin-bottom: 25px;
+    padding: 0;
+  }
+}
+
+.title-container {
+  @include responsive(laptop) {
+    padding: 72px 72px 59px;
+  }
 }
